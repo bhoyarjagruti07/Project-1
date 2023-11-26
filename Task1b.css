@@ -1,0 +1,31 @@
+body {
+
+	display: flex;
+	height: 100vh;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to top,rgb(239, 237, 121),rgb(205, 29, 232)); 
+	font-family: sans-serif;
+    margin-bottom: 10px;
+    margin-top: 1rem;
+	gap: 10px;
+}
+.button{
+
+    width: 160px;
+    height: 35px;
+    background:rgb(216, 48, 245);
+    border: none;
+    margin-bottom: 18px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+	font-family: sans-serif;
+}
+.button:hover{
+    background: rgb(216, 48, 245);;
+    color: #fff;
+    transform: scale(1.05);
+}
